@@ -86,3 +86,7 @@ A PCB is optional as I've only used full boards for all the electronic component
 
 ## Notes
 Many changes are still needed for mounts such as servos and the motors. Thickness of leg also needs adjusting which can only be done once motor arrives as datasheet is not accurate.
+
+## To-do
+- Work on mounts
+- Make a proper controller for the bot
