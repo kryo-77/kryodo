@@ -2,9 +2,9 @@
 
 Kryodo is a self balancing, two wheeled robot. It is inpiered by BD-X droid which was made by Disney.
 
-![isometric front view](images\iso_main.png)
+![isometric front view](images/iso_main.png)
 
-![isometric back view](images\iso_back.png)
+![isometric back view](images/iso_back.png)
 
 ## What it is
 
@@ -37,18 +37,18 @@ A ESP32-DevKit-V1 controls these things:
 
 The two oleds are on different pins on the devkit so they dont interfere with each other as they share the same address.
 
-![front bot view](images\canva\4.png)
+![front bot view](images/canva/4.png)
 
 Here's how the back side looks like of the head: 
 
-![head back view](images\canva\3.png)
+![head back view](images/canva/3.png)
 The SG90servos control ears.
 
-![iso front bot view](images\canva\1.png)
+![iso front bot view](images/canva/1.png)
 
 Here's the servo pan tilt mechanism: 
 
-![front bot view](images\canva\2.png)
+![front bot view](images/canva/2.png)
 
 ## File structure
 
@@ -62,7 +62,7 @@ Proper firmware is remaning as I've not yet assembled the robot physically.
 
 ## Wiring schematic
 
-![Wiring schem](images\wiring_schem.png)
+![Wiring schem](images/wiring_schem.png)
 
 A PCB is optional as I've only used full boards for all the electronic components. They're all connected together using jumper wires.
 
