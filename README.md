@@ -10,6 +10,8 @@ Kryodo is a self balancing, two wheeled robot. It is inpiered by BD-X droid whic
 
 Kryodo is a self balancing robot which has two wheels.
 
+**PCB IS NOT NEEDED**
+
 It is about 35cm tall. It's legs are static with motors at the bottom. It has a moving head using a pan-tilt servo mechanism. 
 
 We can control this robot either using WIFI or having it move around on its own using open-cv. The head has a ESP32-CAM module inside which streams to your PC which takes care of the open-cv.
@@ -30,6 +32,7 @@ I wanted to make something like that but on my own, but it felt too complex the 
 A ESP32-DevKit-V1 controls these things:
 - 2x MPU6050 - tilt measure
 - 2x BTS7960 motor driver - for 2x 300rpm motors.
+- Motors also have encoders which give me position and proper speed feedback. I plan to use this to make a digital model and have it update real time.
 - 1x PCA9685 - connects with 4 servos (2x MG996R & 2x SG90)
 - WS2812b leds - cosmetic
 - 0.91in oled - cosmetic
@@ -89,4 +92,5 @@ Many changes are still needed for mounts such as servos and the motors. Thicknes
 
 ## To-do
 - Work on mounts
-- Make a proper controller for the bot
+- Update wiring schem to include encoder motor wires
+- Make a proper controller for the bot 
